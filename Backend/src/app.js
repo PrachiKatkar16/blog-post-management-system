@@ -10,6 +10,8 @@ app.use(
     origin: [
       "https://blog-post-manager.vercel.app",
     ],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
   })
 );
 
