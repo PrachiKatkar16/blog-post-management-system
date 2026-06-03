@@ -39,6 +39,6 @@ export const exportCSV = (keyword = "", category = "", status = "") => {
   if (keyword) params.append("keyword", keyword);
   if (category) params.append("category", category);
   if (status) params.append("status", status);
-  const url = `http://localhost:5000/api/posts/export?${params.toString()}`;
+  const url = `https://blog-post-management-system-4.onrender.com/api/posts/export?${params.toString()}`;
   window.open(url, "_blank");
 };
