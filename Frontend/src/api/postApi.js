@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/posts",
+  baseURL: "https://blog-post-management-system-uoz5.onrender.com",
 });
 
 export const getPosts = (page = 1, limit = 5) => {
