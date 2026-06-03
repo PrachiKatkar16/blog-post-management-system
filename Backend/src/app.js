@@ -8,7 +8,7 @@ app.use(express.json())
 app.use(
   cors({
     origin: [
-      "https://blog-post-manager.vercel.app",
+      "https://blog-post-management-system-git-9f96df-prachi-katkars-projects.vercel.app/",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
